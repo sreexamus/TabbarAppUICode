@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		947107A61F6C452800B41B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107A51F6C452800B41B99 /* AppDelegate.swift */; };
-		947107A81F6C452800B41B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107A71F6C452800B41B99 /* ViewController.swift */; };
-		947107AB1F6C452800B41B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947107A91F6C452800B41B99 /* Main.storyboard */; };
 		947107AD1F6C452800B41B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947107AC1F6C452800B41B99 /* Assets.xcassets */; };
 		947107B01F6C452800B41B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947107AE1F6C452800B41B99 /* LaunchScreen.storyboard */; };
 		947107BB1F6C452800B41B99 /* TabbarAppUICodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107BA1F6C452800B41B99 /* TabbarAppUICodeTests.swift */; };
 		947107C61F6C452800B41B99 /* TabbarAppUICodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107C51F6C452800B41B99 /* TabbarAppUICodeUITests.swift */; };
+		947107D41F6C458200B41B99 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107D31F6C458200B41B99 /* AppCoordinator.swift */; };
+		947107D61F6C45DC00B41B99 /* MyUITabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107D51F6C45DC00B41B99 /* MyUITabbarController.swift */; };
+		947107D91F6C466A00B41B99 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107D81F6C466A00B41B99 /* MyAccountViewController.swift */; };
+		947107DB1F6C467A00B41B99 /* RelativesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107DA1F6C467A00B41B99 /* RelativesViewController.swift */; };
+		947107DD1F6C468A00B41B99 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107DC1F6C468A00B41B99 /* SportsViewController.swift */; };
+		947107E51F6C596600B41B99 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107E41F6C596600B41B99 /* UIView.swift */; };
+		947107E81F6C59CF00B41B99 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947107E71F6C59CF00B41B99 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		947107A21F6C452700B41B99 /* TabbarAppUICode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarAppUICode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		947107A51F6C452800B41B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		947107A71F6C452800B41B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		947107AA1F6C452800B41B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		947107AC1F6C452800B41B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		947107AF1F6C452800B41B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		947107B11F6C452800B41B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		947107C11F6C452800B41B99 /* TabbarAppUICodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarAppUICodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947107C51F6C452800B41B99 /* TabbarAppUICodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarAppUICodeUITests.swift; sourceTree = "<group>"; };
 		947107C71F6C452800B41B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947107D31F6C458200B41B99 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		947107D51F6C45DC00B41B99 /* MyUITabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUITabbarController.swift; sourceTree = "<group>"; };
+		947107D81F6C466A00B41B99 /* MyAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		947107DA1F6C467A00B41B99 /* RelativesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativesViewController.swift; sourceTree = "<group>"; };
+		947107DC1F6C468A00B41B99 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		947107E41F6C596600B41B99 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		947107E71F6C59CF00B41B99 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,18 @@
 		947107A41F6C452700B41B99 /* TabbarAppUICode */ = {
 			isa = PBXGroup;
 			children = (
+				947107E61F6C59AA00B41B99 /* View */,
+				947107E21F6C593500B41B99 /* Utility */,
+				947107E11F6C589700B41B99 /* Sports */,
+				947107E01F6C589000B41B99 /* Relatives */,
+				947107DF1F6C588900B41B99 /* MyAccount */,
+				947107DE1F6C471A00B41B99 /* TabbarController */,
+				947107D71F6C465000B41B99 /* ViewControllers */,
 				947107A51F6C452800B41B99 /* AppDelegate.swift */,
-				947107A71F6C452800B41B99 /* ViewController.swift */,
-				947107A91F6C452800B41B99 /* Main.storyboard */,
 				947107AC1F6C452800B41B99 /* Assets.xcassets */,
 				947107AE1F6C452800B41B99 /* LaunchScreen.storyboard */,
 				947107B11F6C452800B41B99 /* Info.plist */,
+				947107D31F6C458200B41B99 /* AppCoordinator.swift */,
 			);
 			path = TabbarAppUICode;
 			sourceTree = "<group>";
@@ -123,6 +139,69 @@
 				947107C71F6C452800B41B99 /* Info.plist */,
 			);
 			path = TabbarAppUICodeUITests;
+			sourceTree = "<group>";
+		};
+		947107D71F6C465000B41B99 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		947107DE1F6C471A00B41B99 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				947107D51F6C45DC00B41B99 /* MyUITabbarController.swift */,
+			);
+			name = TabbarController;
+			sourceTree = "<group>";
+		};
+		947107DF1F6C588900B41B99 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				947107D81F6C466A00B41B99 /* MyAccountViewController.swift */,
+			);
+			name = MyAccount;
+			sourceTree = "<group>";
+		};
+		947107E01F6C589000B41B99 /* Relatives */ = {
+			isa = PBXGroup;
+			children = (
+				947107DA1F6C467A00B41B99 /* RelativesViewController.swift */,
+			);
+			name = Relatives;
+			sourceTree = "<group>";
+		};
+		947107E11F6C589700B41B99 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				947107DC1F6C468A00B41B99 /* SportsViewController.swift */,
+			);
+			name = Sports;
+			sourceTree = "<group>";
+		};
+		947107E21F6C593500B41B99 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				947107E31F6C595800B41B99 /* Extension */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		947107E31F6C595800B41B99 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				947107E41F6C596600B41B99 /* UIView.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		947107E61F6C59AA00B41B99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				947107E71F6C59CF00B41B99 /* HeaderView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +313,6 @@
 			files = (
 				947107B01F6C452800B41B99 /* LaunchScreen.storyboard in Resources */,
 				947107AD1F6C452800B41B99 /* Assets.xcassets in Resources */,
-				947107AB1F6C452800B41B99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947107A81F6C452800B41B99 /* ViewController.swift in Sources */,
+				947107D61F6C45DC00B41B99 /* MyUITabbarController.swift in Sources */,
+				947107DB1F6C467A00B41B99 /* RelativesViewController.swift in Sources */,
+				947107D41F6C458200B41B99 /* AppCoordinator.swift in Sources */,
+				947107E51F6C596600B41B99 /* UIView.swift in Sources */,
+				947107DD1F6C468A00B41B99 /* SportsViewController.swift in Sources */,
+				947107D91F6C466A00B41B99 /* MyAccountViewController.swift in Sources */,
 				947107A61F6C452800B41B99 /* AppDelegate.swift in Sources */,
+				947107E81F6C59CF00B41B99 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +380,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		947107A91F6C452800B41B99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				947107AA1F6C452800B41B99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		947107AE1F6C452800B41B99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
